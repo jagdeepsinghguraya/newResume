@@ -20,3 +20,8 @@ document.querySelectorAll(".menu-link").forEach((link) => {
 		bgOverlay.classList.remove("is-active");
 	});
 });
+
+setTimeout(() => {
+  const preloader = document.getElementById('preloader');
+  preloader.style.display = 'none';
+}, 1500);
