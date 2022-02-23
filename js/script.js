@@ -22,6 +22,5 @@ document.querySelectorAll(".menu-link").forEach((link) => {
 });
 
 setTimeout(() => {
-  const preloaderr = document.getElementById('preloader');
-  preloaderr.style.display = 'none';
+  document.getElementById("preloader").style.display = "none";
 }, 1500);
