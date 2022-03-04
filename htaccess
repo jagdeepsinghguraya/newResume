@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https:///www.thejagdeepsingh.in/$1 [R,L]
+RewriteRule ^index\.html$ "https\:\/\/www\.thejagdeepsingh\.in\/" [R=301,L]
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteCond %{HTTPS}s on(s)|offs()
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [NE,L,R]
