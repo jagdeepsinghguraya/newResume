@@ -1806,8 +1806,8 @@ footer .bottom {
   position: relative;
   left: calc(50% - 31px);
   top: calc(50% - 32px);
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height: 5rem;
   -webkit-perspective: 48rem;
           perspective: 48rem;
 }
