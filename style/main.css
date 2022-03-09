@@ -1285,7 +1285,7 @@ main .homecontent .homeright .wrapper .dynamic-text li span::after {
   border-radius: 5px;
   padding: 0 0.3rem;
   position: fixed;
-  bottom: 2rem;
+  bottom: 1rem;
   right: 1rem;
   -webkit-box-shadow: 0 0 1rem 0 #2f3640;
           box-shadow: 0 0 1rem 0 #2f3640;
