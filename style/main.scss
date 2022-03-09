@@ -232,7 +232,7 @@ header {
   border: 1px solid $primary;
   position: relative;
   overflow: hidden;
-  border-radius: 0.8rem;
+  border-radius: 6px;
   transition: all 0.4s ease;
   @include miniBoxShadow;
   &:hover {
@@ -363,7 +363,7 @@ main {
   background-color: $background;
   border-left: 2px solid $headingColor;
   border-bottom: 2px solid $headingColor;
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 5px;
   margin: -2rem auto 0 auto;
   transition: all 0.4s ease;
   &:hover {
@@ -544,7 +544,7 @@ main {
         .skills-bar {
           width: 500px;
           background-color: $light;
-          border-radius: 10px;
+          border-radius: 5px;
           padding: 2rem 3rem;
           @include miniBoxShadow;
           .bar {
@@ -935,7 +935,7 @@ footer {
   background-color: $light;
   @include miniBoxShadow;
   padding: 1.5rem 2rem;
-  border-radius: 10px;
+  border-radius: 5px;
   .form-group {
     margin-bottom: 1.3rem;
     input,
@@ -1002,7 +1002,7 @@ footer {
 .flip-box-back {
   background-size: cover;
   background-position: center;
-  border-radius: 8px;
+  border-radius: 5px;
   min-height: 250px;
   transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   backface-visibility: hidden;

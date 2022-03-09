@@ -275,7 +275,7 @@ header .overlay.is-active {
   border: 1px solid #8c7ae6;
   position: relative;
   overflow: hidden;
-  border-radius: 0.8rem;
+  border-radius: 6px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   -webkit-box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.8);
@@ -327,7 +327,7 @@ header .overlay.is-active {
   background-color: #fdfdfd;
   padding: .7rem;
   margin: 1rem;
-  border-radius: 8px;
+  border-radius: 5px;
   -webkit-box-shadow: -6px -6px 10px -1px rgba(0, 0, 0, 0.8);
           box-shadow: -6px -6px 10px -1px rgba(0, 0, 0, 0.8);
   -webkit-transition: all 0.5s ease;
@@ -502,7 +502,7 @@ main .homecontent .homeright .wrapper .dynamic-text li span::after {
   background-color: #fdfdfd;
   border-left: 2px solid #cc9900;
   border-bottom: 2px solid #cc9900;
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 5px;
   margin: -2rem auto 0 auto;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -778,7 +778,7 @@ main .homecontent .homeright .wrapper .dynamic-text li span::after {
 #resume .skills .content .left .skills-bar {
   width: 500px;
   background-color: #f0f0e8;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 2rem 3rem;
   -webkit-box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.8);
           box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.8);
@@ -1397,7 +1397,7 @@ footer .bottom {
   -webkit-box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.8);
           box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.8);
   padding: 1.5rem 2rem;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .form .form-group {
@@ -1498,7 +1498,7 @@ footer .bottom {
 .flip-box-back {
   background-size: cover;
   background-position: center;
-  border-radius: 8px;
+  border-radius: 5px;
   min-height: 250px;
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -1551,7 +1551,7 @@ footer .bottom {
   background-color: #fdfdfd;
   padding: .7rem;
   margin: 1rem;
-  border-radius: 8px;
+  border-radius: 5px;
   -webkit-box-shadow: -6px -6px 10px -1px rgba(0, 0, 0, 0.8);
           box-shadow: -6px -6px 10px -1px rgba(0, 0, 0, 0.8);
   -webkit-transition: all 0.5s ease;
