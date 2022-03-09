@@ -1281,13 +1281,14 @@ main .homecontent .homeright .wrapper .dynamic-text li span::after {
 }
 
 .goToTop {
-  border-radius: 10px;
-  padding: 0.2rem;
+  background: #2f3640;
+  border-radius: 5px;
+  padding: 0 0.3rem;
   position: fixed;
   bottom: 2rem;
   right: 1rem;
-  -webkit-box-shadow: 0 0 1rem 0 #cc9900;
-          box-shadow: 0 0 1rem 0 #cc9900;
+  -webkit-box-shadow: 0 0 1rem 0 #2f3640;
+          box-shadow: 0 0 1rem 0 #2f3640;
   -webkit-animation: arrow 0.75s ease infinite;
           animation: arrow 0.75s ease infinite;
 }
@@ -1323,8 +1324,13 @@ main .homecontent .homeright .wrapper .dynamic-text li span::after {
 }
 
 .goToTop img {
-  width: 2.3rem;
-  height: 2rem;
+  height: 1rem;
+  vertical-align: text-top;
+}
+
+.goToTop a {
+  color: #f0f0e8;
+  font-size: 0.75rem;
 }
 
 footer {
