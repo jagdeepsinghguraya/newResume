@@ -873,7 +873,7 @@ main .homecontent .homeright .wrapper .dynamic-text li span::after {
 }
 
 #resume .skills .content .left .skills-bar .bar .progress-line.react span {
-  width: 20%;
+  width: 65%;
 }
 
 #resume .skills .content .left .skills-bar .bar .progress-line.react span::after {
